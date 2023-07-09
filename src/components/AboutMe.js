@@ -32,6 +32,11 @@ const AboutMe = () => {
                 <p>
                   Combining my expertise in HTML, CSS, JavaScript, and React, I strive to deliver outstanding results. Creating captivating user interfaces and ensuring exceptional user experiences remain at the core of my work. I am driven by a dedication to quality and a commitment to continuous learning.
                 </p>
+                <p>
+Please visit My Portfolio page where you will see some of my works. If you are impressed please visit my contact page and dont hesitate to contact me. If you want a copy of my resume, please visit resume page. 
+<br></br>
+<br></br>
+                </p>
               </div>
             </div>
           </div>
