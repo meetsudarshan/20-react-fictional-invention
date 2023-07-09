@@ -135,3 +135,39 @@ footer {
   font-size: 18px;
   margin: 0 10px;
 }
+
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info span {
+  margin: 0 5px; /* Adjust the value as needed */
+}
+
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.light-green-card {
+  background-color: turquoise;
+  /* Add additional styling as needed */
+}

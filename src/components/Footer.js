@@ -17,7 +17,7 @@ const Footer = () => {
             <i className="fab fa-stack-overflow"></i>
             Stack Overflow
           </a>
-          {/* Add more links and icons as needed */}
+        
         </div>
         <div className="footer-text">
           <p>&copy; 2023 Your Name</p>

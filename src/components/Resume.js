@@ -30,8 +30,10 @@ const Resume = () => {
     <section>
       <h2>Resume</h2>
       <div className="resume">
-        <a href="resume.pdf" download>Download Resume</a>
-        <div>
+        <a href="./resume.pdf" download>Download Resume</a>
+      </div>
+      <div className="card light-green-card">
+        <div className="card-content">
           <h4>Proficiencies</h4>
           <ul>
             {proficiencies.map((proficiency, index) => (
@@ -39,7 +41,9 @@ const Resume = () => {
             ))}
           </ul>
         </div>
-        <div>
+      </div>
+      <div className="card light-green-card">
+        <div className="card-content">
           <h4>Certifications</h4>
           <ul>
             {certifications.map((certification, index) => (
@@ -47,7 +51,9 @@ const Resume = () => {
             ))}
           </ul>
         </div>
-        <div>
+      </div>
+      <div className="card light-green-card">
+        <div className="card-content">
           <h4>Ongoing Learning</h4>
           <ul>
             {ongoingLearning.map((topic, index) => (

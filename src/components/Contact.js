@@ -9,7 +9,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Add your form submission logic here
+  
 
     // Reset form fields
     setName('');
@@ -21,39 +21,52 @@ const Contact = () => {
   return (
     <section>
       <h2>Contact</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-          />
+      <div className="card" style={{ backgroundColor: 'lightblue' }}>
+        <div className="card-content">
+          <form onSubmit={handleSubmit}>
+            <div>
+              <label htmlFor="name" style={{ fontSize: '2rem' }}>Name:</label>
+            </div>
+            <div style={{ marginBottom: '1rem' }}>
+              <input
+                type="text"
+                id="name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+                style={{ width: '80%', fontSize: '2rem' }}
+              />
+            </div>
+            <div>
+              <label htmlFor="email" style={{ fontSize: '2rem' }}>Email:</label>
+            </div>
+            <div style={{ marginBottom: '1rem' }}>
+              <input
+                type="email"
+                id="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                style={{ width: '80%', fontSize: '2rem' }}
+              />
+            </div>
+            <div>
+              <label htmlFor="message" style={{ fontSize: '2rem' }}>Message:</label>
+            </div>
+            <div style={{ marginBottom: '1rem' }}>
+              <textarea
+                id="message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                required
+                style={{ width: '80%', height: '200px', fontSize: '2rem' }}
+              ></textarea>
+            </div>
+            <button type="submit" style={{ fontSize: '2rem', marginTop: '1rem' }}>Submit</button>
+            {formSubmitted && <p style={{ fontSize: '2rem', marginTop: '1rem' }}>Thank you for your message!</p>}
+          </form>
         </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            id="message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            required
-          ></textarea>
-        </div>
-        <button type="submit">Submit</button>
-        {formSubmitted && <p>Thank you for your message!</p>}
-      </form>
+      </div>
     </section>
   );
 };
