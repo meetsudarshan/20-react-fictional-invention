@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/meetsudarshan/20-react-fictional-invention/static/css/main.a2edf6cd.css",
+    "main.js": "/meetsudarshan/20-react-fictional-invention/static/js/main.2fc127e0.js",
+    "static/js/787.de59f598.chunk.js": "/meetsudarshan/20-react-fictional-invention/static/js/787.de59f598.chunk.js",
+    "index.html": "/meetsudarshan/20-react-fictional-invention/index.html",
+    "main.a2edf6cd.css.map": "/meetsudarshan/20-react-fictional-invention/static/css/main.a2edf6cd.css.map",
+    "main.2fc127e0.js.map": "/meetsudarshan/20-react-fictional-invention/static/js/main.2fc127e0.js.map",
+    "787.de59f598.chunk.js.map": "/meetsudarshan/20-react-fictional-invention/static/js/787.de59f598.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2edf6cd.css",
+    "static/js/main.2fc127e0.js"
+  ]
+}
