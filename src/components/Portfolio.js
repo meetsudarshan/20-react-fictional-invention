@@ -20,7 +20,7 @@ const Portfolio = () => {
       id: 3,
       title: 'Odd Jobs- A website to browse your neighborhood handymen and book them for service',
       image: "./Images/OddJobs.jpg",
-      deployLink: 'To be deployed',
+      deployLink: 'https://odd-jobs-f138ae74eee7.herokuapp.com/',
       repoLink: 'https://github.com/JacobRubino/OddJobs'
     },
     {
